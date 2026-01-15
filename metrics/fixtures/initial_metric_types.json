@@ -1,0 +1,74 @@
+[
+    {
+        "model": "metrics.metrictype",
+        "pk": 1,
+        "fields": {
+            "name": "steps",
+            "unit": "steps",
+            "description": "Daily step count",
+            "min_value": "0.00",
+            "max_value": "100000.00",
+            "is_active": true
+        }
+    },
+    {
+        "model": "metrics.metrictype",
+        "pk": 2,
+        "fields": {
+            "name": "sleep_hours",
+            "unit": "hours",
+            "description": "Hours of sleep",
+            "min_value": "0.00",
+            "max_value": "24.00",
+            "is_active": true
+        }
+    },
+    {
+        "model": "metrics.metrictype",
+        "pk": 3,
+        "fields": {
+            "name": "water_intake",
+            "unit": "ml",
+            "description": "Water consumption in milliliters",
+            "min_value": "0.00",
+            "max_value": "10000.00",
+            "is_active": true
+        }
+    },
+    {
+        "model": "metrics.metrictype",
+        "pk": 4,
+        "fields": {
+            "name": "weight",
+            "unit": "kg",
+            "description": "Body weight in kilograms",
+            "min_value": "20.00",
+            "max_value": "500.00",
+            "is_active": true
+        }
+    },
+    {
+        "model": "metrics.metrictype",
+        "pk": 5,
+        "fields": {
+            "name": "heart_rate",
+            "unit": "bpm",
+            "description": "Resting heart rate in beats per minute",
+            "min_value": "30.00",
+            "max_value": "220.00",
+            "is_active": true
+        }
+    },
+    {
+        "model": "metrics.metrictype",
+        "pk": 6,
+        "fields": {
+            "name": "calories_burned",
+            "unit": "kcal",
+            "description": "Calories burned through activity",
+            "min_value": "0.00",
+            "max_value": "10000.00",
+            "is_active": true
+        }
+    }
+]
